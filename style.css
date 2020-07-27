@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to left, #00b7ffde 0%, #00ff95 80%);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0 5% 0;
+}
+
+div input {
+    width: 30%;
+    height: 50px;
+    font-size: 28px;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+div button {
+    font-size: 22px;
+    padding: 12px;
+    margin: 18px;
+    border-radius: 10px;
+    border-color: #0080ff;
+    box-shadow: 2px 2px #0080ff;
+    outline: none;
+    transition: all ease 0.4s;
+}
+
+div button:hover {
+    background-color: #0080ff;
+    outline: none;
+    color: #fff;
+}
+
+.litext {
+    color: #3100ff;
+    font-size: 34px;
+    margin-left: 25%;
+    text-decoration: underline;
+}
+
+.dltboton {
+    font-size: 22px;
+    padding: 12px;
+    margin: 18px;
+    border-radius: 10px;
+    border-color: #0080ff;
+    box-shadow: 2px 2px #0080ff;
+    outline: none;
+    transition: all ease 0.4s;
+}
+
+.dltboton:hover {
+    background-color: #0080ff;
+    outline: none;
+    color: #fff;
+}
+
+.editboton {
+    font-size: 22px;
+    padding: 12px;
+    margin: 18px;
+    border-radius: 10px;
+    border-color: #0080ff;
+    box-shadow: 2px 2px #0080ff;
+    outline: none;
+    transition: all ease 0.4s;
+}
+
+.editboton:hover {
+    background-color: #0080ff;
+    outline: none;
+    color: #fff;
+}
